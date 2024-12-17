@@ -1,0 +1,19 @@
+{
+  "name": "playwright-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "example": "node index.js",
+    "header": "node playwright_scraping/ui-testing_header.js",
+    "table": "node playwright_scraping/table-scraping.js",
+    "form": "node playwright_scraping/form-actions.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.49.1"
+  }
+}
